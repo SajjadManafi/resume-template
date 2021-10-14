@@ -1,0 +1,70 @@
+:root {
+    --hue-color: 250;
+    /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --bg-fb: #fbfbfd;
+    --first-color: hsl(var(--hue-color), 69%, 61%);
+    --title-color: hsl(var(--hue-color), 8%, 15%);
+    --font-medium: 500;
+    --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+}
+
+body {
+    background-color: var(--bg-fb);
+}
+
+.bgfb {
+    background-color: #fbfbfd;
+}
+
+
+/* .nav-link.active {
+    color: #6e57e0;
+} */
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: var(--first-color)
+}
+
+.nav__icon {
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: var(--first-color);
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--first-color);
+}
+
+.home__blob {
+    width: 200px;
+    fill: var(--first-color);
+}
+
+.home__blob-img {
+    width: 170px;
+}
+
+.btn-first {
+    background-color: var(--first-color);
+    color: #FFF;
+}
+
+.btn-first:hover {
+    background-color: var(--first-color-alt);
+    color: rgb(255, 255, 255);
+}
+
+.home__social-icon {
+    font-size: 1.5rem;
+    color: var(--first-color);
+}
