@@ -6,6 +6,13 @@
     --title-color: hsl(var(--hue-color), 8%, 15%);
     --font-medium: 500;
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+    --big-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
 }
 
 body {
@@ -67,4 +74,24 @@ body {
 .home__social-icon {
     font-size: 1.5rem;
     color: var(--first-color);
+}
+
+.small-font {
+    font-size: var(--small-font-size);
+}
+
+.about__info-title {
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+}
+
+.about__info-name {
+    font-size: var(--smaller-font-size);
+}
+
+.about__info-title,
+.about__info-name {
+    display: block;
+    text-align: center;
 }
