@@ -13,6 +13,7 @@
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
+    --text-color-light: hsl(var(--hue-color), 8%, 65%);
 }
 
 body {
@@ -94,4 +95,34 @@ body {
 .about__info-name {
     display: block;
     text-align: center;
+}
+
+.skills__icon,
+.skills_arrow {
+    font-size: 2rem;
+    color: var(--first-color);
+}
+
+.skills__icon {
+    margin-right: var(--mb-0-75);
+}
+
+.skills__title {
+    font-size: var(--h3-font-size);
+}
+
+.skills__subtitle {
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+}
+
+.accordion-item {
+    background-color: #fff;
+    border: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #212529;
+    background-color: #ffffff;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
 }
