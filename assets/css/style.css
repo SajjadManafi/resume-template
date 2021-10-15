@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 :root {
     --hue-color: 250;
     /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
@@ -14,10 +15,12 @@
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
+    --body-font: 'Poppins', sans-serif;
 }
 
 body {
     background-color: var(--bg-fb);
+    font-family: var(--body-font);
 }
 
 .bgfb {
