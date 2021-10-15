@@ -449,3 +449,23 @@ body {
 .services__modal-icon {
     color: var(--first-color-alt);
 }
+
+.btn__demo {
+    background-color: var(--first-color);
+    color: #FFF;
+    font-size: 1.2rem;
+}
+
+.btn__demo:hover {
+    background-color: var(--first-color-alt);
+    color: rgb(255, 255, 255);
+}
+
+.bg-first {
+    background-color: var(--first-color);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: var(--first-color-alt);
+}
