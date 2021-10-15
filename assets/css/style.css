@@ -411,3 +411,41 @@ body {
         padding: 0 0 0 40px;
     }
 }
+
+.btn-text-first {
+    background-color: #fff;
+    color: var(--first-color);
+}
+
+.btn--text-first:hover {
+    color: var(--first-color-alt);
+    transform: translateX(1.25rem);
+}
+
+.services__arrow {
+    transition: .3s;
+}
+
+.services__arrow:hover {
+    transform: translateX(.5rem);
+}
+
+.services__icon {
+    font-size: 3rem;
+    color: var(--first-color);
+}
+
+.modal-header {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: none;
+    border-top-left-radius: calc(.3rem - 1px);
+    border-top-right-radius: calc(.3rem - 1px);
+}
+
+.services__modal-icon {
+    color: var(--first-color-alt);
+}
